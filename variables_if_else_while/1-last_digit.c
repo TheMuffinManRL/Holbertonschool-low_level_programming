@@ -4,11 +4,13 @@
 /**
  * main - Entry point
  * Description: creates random number
- * @n random number
- * @ld last digit of number
+ * then assigns ld as the last digit
+ * if ld is greater than five prints string
+ * if ld is equal to zero prints string
+ * if ld is less than and not zero prints string
  *
- * return: Always (0) Success
-*/
+ * return: 0
+ */
 int main(void)
 {
 	int n;
