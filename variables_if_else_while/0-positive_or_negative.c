@@ -31,7 +31,7 @@ int main(void)
 	}
 	else
 	{
-		printf("nothing"\n, n);
+		iprintf("nothing\n", n);
 	}
 	return (0);
 }
