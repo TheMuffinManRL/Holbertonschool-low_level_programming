@@ -3,13 +3,12 @@
 #include <stdio.h>
 /**
  * main - Entry point
- *
  * Description: creates random number
  * If number is positive prints n is positive
  * If n is equal to zero print n is zero
  * If negative print n is negative
  *
- * Return - Always (0) (Success)
+ * Return: 0
 */
 int main(void)
 {
