@@ -25,9 +25,13 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-	else
+	if
 	{
 		printf("%d is negative\n", n);
+	}
+	else
+	{
+		printf("nothing"\n, n);
 	}
 	return (0);
 }
