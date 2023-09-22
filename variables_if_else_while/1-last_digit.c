@@ -2,14 +2,27 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ * Description: prints a random number
+ * if last digit is greater than five prints string
+ * if last digit is less than six prints string
+ * if last digit is equal to zero prints string
+ * @n is random number
+ * @i is remainder of number divided by ten
+ *
+ * return: 0
+*/
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	i = LastDigit
+
+	int i;
+
+	i = n % 10;
 
 	if (n > 5)
 	{
@@ -21,5 +34,6 @@ int main(void)
 	if (n == 0)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, i)
+	}
 	return (0);
 }
