@@ -1,8 +1,11 @@
 #include <stdio.h>
 /**
  * main - entry point
- * description: prints alphabet from a to z
+ * alphabet - assigning value to a
+ * @a: starting point to loop
  *
+ * Description: This while loop will display the alphabet
+ * from a - z in lowercase letters ending with a new line
  * return: 0
  */
 int main(void)
