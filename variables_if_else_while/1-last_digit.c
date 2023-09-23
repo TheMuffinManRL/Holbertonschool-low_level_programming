@@ -2,14 +2,15 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point
- * Description: creates random number
- * then assigns ld as the last digit
- * if ld is greater than five prints string
- * if ld is equal to zero prints string
- * if ld is less than and not zero prints string
+ * main - entry point
+ * n - random number
+ * ld - last digit of random number
  *
- * return: 0
+ * Description: This will take the last digit of a
+ * random number and print strings based of if it
+ * is less than six and not zero...greater than five
+ * or equal to zero
+ * Return: 0
  */
 int main(void)
 {
