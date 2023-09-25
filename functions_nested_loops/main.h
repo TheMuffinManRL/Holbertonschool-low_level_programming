@@ -1,1 +1,6 @@
-char _putchar(void);
+#ifndef MAIN.H
+#define MAIN.H
+
+int _putchar(char a);
+
+#endif
