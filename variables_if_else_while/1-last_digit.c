@@ -10,7 +10,7 @@
  * random number and print strings based of if it
  * is less than six and not zero...greater than five
  * or equal to zero
- * Return: 0
+ * Return:0
  */
 int main(void)
 {
