@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 /**
  * main - entry point
  * description: prints _putchar followed by a new line
@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
+	putchar(_putchar);
 	return (0);
 }
