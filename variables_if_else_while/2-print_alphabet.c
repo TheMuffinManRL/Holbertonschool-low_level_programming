@@ -1,24 +1,20 @@
 #include <stdio.h>
 /**
- * main - entry point
- * alphabet - assigning value to a
- * @a: starting point to loop
+ * main - Entry point
  *
- * Description: This while loop will display the alphabet
- * from a - z in lowercase letters ending with a new line
- * return: 0
+ * Return: 0
  */
 int main(void)
 {
-	char alphabet = 'a';
+	char i;
 
-	while (alphabet <= 'z')
+	i = 'a';
 
+	while (i <= 'z')
 	{
-		putchar(alphabet);
-		alphabet++;
+		putchar(n);
+		i++;
 	}
-
 	putchar('\n');
 	return (0);
 }
