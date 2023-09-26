@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - entry point
- * description: prints out numbers zero through nine in integers
- * Return: Always (0) Success
+ * main - Entry point
+ *
+ * Return: 0
  */
 int main(void)
 {
