@@ -1,11 +1,9 @@
 #include <stdio.h>
 /**
- * main - entry point
- * description: outputs all numbers of hexadecimal in lowercase
- * followed by a new line while using for loop and
- * only using putchar twice
+ * main - Entry point
  *
- * return: 0
+ *
+ * Return: 0
  */
 int main(void)
 {

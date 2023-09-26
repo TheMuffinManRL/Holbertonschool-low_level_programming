@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
- * main - entry point
- * description: prints numbers zero through nine
- * seperated by a comma and a space
- * return:0
+ * main - Entry point
+ *
+ * Return: 0
  */
 int main(void)
 {

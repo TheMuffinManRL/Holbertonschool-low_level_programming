@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
- * main - entry point
- * description: outputs alphabet in reverse order
- * and adds a new line
- * return:0
+ * main - Entry point
+ *
+ * Return: 0
  */
 int main(void)
 {
