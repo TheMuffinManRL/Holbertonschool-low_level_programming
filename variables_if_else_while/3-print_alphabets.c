@@ -1,27 +1,25 @@
 #include <stdio.h>
 /**
- * main - entry point
- * description: prints alphabet from a to z
- * then prints alphabet in caps from A to Z
+ * main - Entry point
  *
  * return: 0
  */
 int main(void)
 {
-	char alphabet = 'a';
-	char ALPHABET = 'A';
+	char a = 'a';
+	char A = 'A';
 
-	while (alphabet <= 'z')
+	while (a <= 'z')
 
 	{
-		putchar(alphabet);
-		alphabet++;
+		putchar(a);
+		a++;
 	}
 
-	while (ALPHABET <= 'Z')
+	while (A <= 'Z')
 	{
-		putchar(ALPHABET);
-		ALPHABET++;
+		putchar(A);
+		A++;
 	}
 	putchar('\n');
 	return (0);
