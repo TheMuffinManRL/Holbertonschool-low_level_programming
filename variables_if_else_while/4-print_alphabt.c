@@ -1,18 +1,18 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Entry point
  *
- * return: 0
+ * Return: 0
  */
 int main(void)
 {
-	char alphabet = 'a';
+	char a = 'a';
 
-	for (; alphabet <= 'z'; alphabet++)
+	for (; a <= 'z'; a++)
 	{
-		if (alphabet != 'e' && alphabet != 'q')
+		if (a != 'e' && a != 'q')
 		{
-			putchar(alphabet);
+			putchar(a);
 		}
 	}
 	putchar('\n');
