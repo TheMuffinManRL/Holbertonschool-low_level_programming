@@ -2,3 +2,4 @@
 1-isdigit - checks to see if character given is a digit between 0-9(1 for yes, 0 for no)
 2-mul - multiplies 2 integers together
 3-print_numbers - prints numbers 0-9 followed by a new line
+4-print_most_numbers - prints numbers 0-9 except 2 and 4
