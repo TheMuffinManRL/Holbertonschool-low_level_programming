@@ -4,5 +4,6 @@
 3-print_numbers - prints numbers 0-9 followed by a new line
 4-print_most_numbers - prints numbers 0-9 except 2 and 4
 5-more_numbers - prints numbers 0-14 ten time
-6-print_line - prints a line equal to the number provided
-7-print_diagonal - prints a diagonal line
+6-print_line - prints a line the size of n
+7-print_diagonal - prints a diagonal line the size of n
+8-print_square - prints a square the size of size
