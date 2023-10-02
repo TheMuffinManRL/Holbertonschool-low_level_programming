@@ -2,4 +2,5 @@
 1-swap - swaps the value of two integers
 2-strlen - returns the amount of characters are in the string
 3-puts - prints a string, followed by a new line
+4-print_rev - prints the string given backwards
 
