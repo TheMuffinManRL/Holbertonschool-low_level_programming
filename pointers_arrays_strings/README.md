@@ -4,4 +4,5 @@
 3-puts - prints a string, followed by a new line
 4-print_rev - prints the string given backwards
 5-rev_string - reverses string given
+6-puts2 - prints every other character of string starting at the first\new line
 
