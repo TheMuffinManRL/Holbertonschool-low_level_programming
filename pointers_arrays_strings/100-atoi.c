@@ -1,36 +1,35 @@
 #include "main.h"
 /**
- * _atoi - start of the program
- * @s: string to be extracted from
+ * _atoi - convert string to an integer
+ * @s: pointer to convert
  *
- * Return: return the number from the string
+ * Return: 0
  */
 int _atoi(char *s)
 {
-	int PosNegDet;
-	int PosNeg;
-	int Digit;
-	int Result;
-
-	PosNegDet = 0;
-	Result = 0;
-
-	while (*s != '\0')
+	int c = 0;
+	unsigned int ni = 0;
+	int min = 1;
+	int isi = 0;
+	
+	while (s[c])
 	{
-		if (*s == 43)
-			PosNegDet = PosNegDet + 1;
-		else if (*s == 45)
-			PosNegDet = PosNegDet - 1;
-		else if (*s > 47 && *s < 58)
+		if (s[c] == 45)
 		{
-			Digit = *s - '0';
-			Result = Result * 10 + Digit;
+			min *= -1;
 		}
-		s++;
+		while (s[c] >= 48 && s[c] <= 57)
+		{
+			isi = 1;
+			ni = (ni * 10) + (s[c] - '0');
+			c++;
+		}
+		if (isi == 1)
+		{
+			break;
+		}
+		c++;
 	}
-	if (PosNegDet >= 0)
-		PosNeg = 1;
-	else
-		PosNeg = -1;
-	return (PosNeg * Result);
+	ni *= min;
+	return (ni);
 }
